@@ -1,0 +1,10 @@
+development: &default
+  client_key: "3MVG9KI2HHAq33RzqHNmenWFEy.cCXTpSVi4fMG1gSec9pjlUlBiXw4G4lliATT1wqSkXI73KSwOAEHZPfDTg"
+  client_secret: "8639087978487036047"
+
+test:
+  <<: *default
+
+production:
+  client_key: "3MVG9KI2HHAq33RzqHNmenWFEy.cCXTpSVi4fMG1gSec9pjlUlBiXw4G4lliATT1wqSkXI73KSwOAEHZPfDTg"
+  client_secret: "8639087978487036047"
